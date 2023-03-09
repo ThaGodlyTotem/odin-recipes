@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.349),rgba(0, 0, 0, 0.459)),url(https://images.pexels.com/photos/5947019/pexels-photo-5947019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    margin-left: 5%;
+
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+h1{
+    color: white;
+    font-size: 100px;
+
+}
+
+p{
+    color: white;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.card{
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 12px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.3s;
+
+
+}
+
+
+.card1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.205),rgba(0, 0, 0, 0.459)),url(https://food-images.files.bbci.co.uk/food/recipes/white_russian_36079_16x9.jpg);
+
+}
+
+.card2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.205),rgba(0, 0, 0, 0.459)),url(https://bellyfull.net/wp-content/uploads/2022/05/Mai-Tai-drink-recipe-blog-2.jpg);
+
+}
+
+.card3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.205),rgba(0, 0, 0, 0.459)),url(https://assets.epicurious.com/photos/62755263a00ff576935dcf0f/2:3/w_2996,h_4494,c_limit/AperolSpritz_RECIPE_050522_33647.jpg);
+
+}
+
+.card4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.205),rgba(0, 0, 0, 0.459)),url(https://img.jamieoliver.com/jamieoliver/recipe-database/oldImages/large/1210_1_1436778857.jpg);
+
+}
+
+.card:hover{
+    transform: translateY(-15px);
+}
+
+.one{
+    color: white;
+    font-size: 13px;
+    line-height: 13px;
+    text-align: center;
+    text-shadow: 0 0 6px #000000;
+    margin-top: 10px;
+   
+}
+
+h5{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 3px #f5f5f5;
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+}
